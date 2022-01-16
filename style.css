@@ -5,11 +5,19 @@
     
 }
 .primary-button{
-    background-color: #E02C6D;
+    background-image: linear-gradient(90deg, #c21273,#FF008E);
     color: #fff;
     padding: 10px 40px;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #a5075e;
+    position: relative;
+    top: 0;
+}
+.primary-button:active{
+    top: 5px;
+    box-shadow: 0 2px 0 #a5075e;
 }
 .header-area{margin-top:30px;margin-bottom: 80px;}
 
